@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link href="css/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/script.js"></script>
+    <title>Travel</title>
+  </head>
+
+  <body>
+    <h1>Travel Diary</h1>
+    <form id="new-location">
+      <div class="form-group">
+        <label for="new-location-name">Location name</label>
+        <input type="text" class="form-control" id="new-location-name">
+      </div>
+      <div class="form-group">
+        <label for="comment">About Location</label>
+        <textarea class="form-control" rows="5" id="comment"></textarea>
+      </div>
+      <button type="submit" class="btn">Add</button>
+    </form>
+    <h2>Contacts:</h2>
+    <ul id="contacts">
+
+    </ul>
+    <div id="show-info">
+      <h2></h2>
+
+      <p>Location Name: <span class="location-name"></span></p>
+      <p>About Location: <span class="about-location"></span></p>
+
+    </div>
+
+
+  </body>

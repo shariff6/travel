@@ -1,0 +1,43 @@
+.heading{
+  text-align: center;
+  font-style: italic;
+  font-family: serif;
+  margin-bottom: 5px;
+}
+.end{
+  background-color: rgb(173, 173, 173);
+}
+h2{
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+#employer{
+  max-width: 400px;
+  margin-top: 100px;
+  align-items: center;
+}
+#employer1{
+  text-align: center;
+
+}
+.employer{
+  border-style: solid;
+  border-top: white;
+  border-bottom: white;
+}
+h4{
+  text-align: center;
+}
+#employee{
+  max-width: 400px;
+  margin-top: 100px;
+  align-items: center;
+  padding-bottom: 20px;
+  max-height: 255px;
+}
+#employee1{
+  text-align: center;
+}
+#employerDetails{
+  display: none;
+}
